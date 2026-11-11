@@ -1,0 +1,111 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+<marker id="fleche" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+<path d="M0,0 L10,5 L0,10 Z" fill="white" stroke="#34495E"/>
+</marker>
+<marker id="triangle" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+<path d="M0,0 L12,6 L0,12 Z" fill="white" stroke="#34495E"/>
+</marker>
+</defs>
+<rect width="1600" height="1000" fill="white"/>
+<text x="800" y="35" text-anchor="middle" font-size="25" font-weight="bold" fill="#17365D">ABSTRACT FACTORY - DIAGRAMME UML</text>
+<g fill='none' stroke='#34495E' stroke-width='2'>
+<path d='M800 130 V165' stroke-dasharray='7,5' marker-end='url(#fleche)'/>
+<path d='M800 270 V310 H300 V350' marker-end='url(#triangle)'/>
+<path d='M800 270 V310 H800 V350' marker-end='url(#triangle)'/>
+<path d='M800 270 V310 H1300 V350' marker-end='url(#triangle)'/>
+<path d='M300 445 V485 H195 V745' stroke-dasharray='7,5' marker-end='url(#fleche)'/>
+<path d='M800 445 V485 H945 V745' stroke-dasharray='7,5' marker-end='url(#fleche)'/>
+<path d='M1300 445 V485 H1445 V745' stroke-dasharray='7,5' marker-end='url(#fleche)'/>
+</g>
+<g><rect x='675' y='55' width='250' height='75' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='675' y='55' width='250' height='27' rx='5' fill='#DCE8F2'/>
+<text x='800' y='73' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>Client</text>
+<line x1='675' y1='87' x2='925' y2='87' stroke='#9AAFC1'/>
+<text x='684' y='107' font-size='11' fill='#222'>+ main(String[] args)</text>
+</g>
+<g><rect x='650' y='165' width='300' height='105' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='650' y='165' width='300' height='27' rx='5' fill='#DCE8F2'/>
+<text x='800' y='183' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>IProduitFactory</text>
+<line x1='650' y1='197' x2='950' y2='197' stroke='#9AAFC1'/>
+<text x='659' y='217' font-size='11' fill='#222'>+ getScooter(): Scooter</text>
+<text x='659' y='233' font-size='11' fill='#222'>+ getAutomobile(): Automobile</text>
+</g>
+<g><rect x='190' y='350' width='220' height='95' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='190' y='350' width='220' height='27' rx='5' fill='#DCE8F2'/>
+<text x='300' y='368' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>ProduitFactoryEssence</text>
+<line x1='190' y1='382' x2='410' y2='382' stroke='#9AAFC1'/>
+<text x='199' y='402' font-size='11' fill='#222'>+ getScooter()</text>
+<text x='199' y='418' font-size='11' fill='#222'>+ getAutomobile()</text>
+</g>
+<g><rect x='690' y='350' width='220' height='95' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='690' y='350' width='220' height='27' rx='5' fill='#DCE8F2'/>
+<text x='800' y='368' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>ProduitFactoryElectrique</text>
+<line x1='690' y1='382' x2='910' y2='382' stroke='#9AAFC1'/>
+<text x='699' y='402' font-size='11' fill='#222'>+ getScooter()</text>
+<text x='699' y='418' font-size='11' fill='#222'>+ getAutomobile()</text>
+</g>
+<g><rect x='1190' y='350' width='220' height='95' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='1190' y='350' width='220' height='27' rx='5' fill='#DCE8F2'/>
+<text x='1300' y='368' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>ProduitFactoryHybride</text>
+<line x1='1190' y1='382' x2='1410' y2='382' stroke='#9AAFC1'/>
+<text x='1199' y='402' font-size='11' fill='#222'>+ getScooter()</text>
+<text x='1199' y='418' font-size='11' fill='#222'>+ getAutomobile()</text>
+</g>
+<g><rect x='250' y='550' width='300' height='90' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='250' y='550' width='300' height='27' rx='5' fill='#DCE8F2'/>
+<text x='400' y='568' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>Scooter</text>
+<line x1='250' y1='582' x2='550' y2='582' stroke='#9AAFC1'/>
+<text x='259' y='602' font-size='11' fill='#222'>+ methodeScooter(): void</text>
+</g>
+<g><rect x='1000' y='550' width='300' height='90' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='1000' y='550' width='300' height='27' rx='5' fill='#DCE8F2'/>
+<text x='1150' y='568' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>Automobile</text>
+<line x1='1000' y1='582' x2='1300' y2='582' stroke='#9AAFC1'/>
+<text x='1009' y='602' font-size='11' fill='#222'>+ methodeAutomobile(): void</text>
+</g>
+<g><rect x='40' y='745' width='210' height='85' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='40' y='745' width='210' height='27' rx='5' fill='#DCE8F2'/>
+<text x='145' y='763' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>ScooterEssence</text>
+<line x1='40' y1='777' x2='250' y2='777' stroke='#9AAFC1'/>
+<text x='49' y='797' font-size='11' fill='#222'>+ methodeScooter()</text>
+</g>
+<path d='M145 745 V690 H400 V640' fill='none' stroke='#34495E' stroke-width='2' marker-end='url(#triangle)'/>
+<g><rect x='290' y='745' width='210' height='85' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='290' y='745' width='210' height='27' rx='5' fill='#DCE8F2'/>
+<text x='395' y='763' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>ScooterElectrique</text>
+<line x1='290' y1='777' x2='500' y2='777' stroke='#9AAFC1'/>
+<text x='299' y='797' font-size='11' fill='#222'>+ methodeScooter()</text>
+</g>
+<path d='M395 745 V690 H400 V640' fill='none' stroke='#34495E' stroke-width='2' marker-end='url(#triangle)'/>
+<g><rect x='540' y='745' width='210' height='85' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='540' y='745' width='210' height='27' rx='5' fill='#DCE8F2'/>
+<text x='645' y='763' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>ScooterHybride</text>
+<line x1='540' y1='777' x2='750' y2='777' stroke='#9AAFC1'/>
+<text x='549' y='797' font-size='11' fill='#222'>+ methodeScooter()</text>
+</g>
+<path d='M645 745 V690 H400 V640' fill='none' stroke='#34495E' stroke-width='2' marker-end='url(#triangle)'/>
+<g><rect x='790' y='745' width='210' height='85' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='790' y='745' width='210' height='27' rx='5' fill='#DCE8F2'/>
+<text x='895' y='763' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>AutomobileEssence</text>
+<line x1='790' y1='777' x2='1000' y2='777' stroke='#9AAFC1'/>
+<text x='799' y='797' font-size='11' fill='#222'>+ methodeAutomobile()</text>
+</g>
+<path d='M895 745 V690 H1150 V640' fill='none' stroke='#34495E' stroke-width='2' marker-end='url(#triangle)'/>
+<g><rect x='1040' y='745' width='210' height='85' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='1040' y='745' width='210' height='27' rx='5' fill='#DCE8F2'/>
+<text x='1145' y='763' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>AutomobileElectrique</text>
+<line x1='1040' y1='777' x2='1250' y2='777' stroke='#9AAFC1'/>
+<text x='1049' y='797' font-size='11' fill='#222'>+ methodeAutomobile()</text>
+</g>
+<path d='M1145 745 V690 H1150 V640' fill='none' stroke='#34495E' stroke-width='2' marker-end='url(#triangle)'/>
+<g><rect x='1290' y='745' width='210' height='85' rx='5' fill='#F5F8FC' stroke='#244A6B' stroke-width='2'/>
+<rect x='1290' y='745' width='210' height='27' rx='5' fill='#DCE8F2'/>
+<text x='1395' y='763' text-anchor='middle' font-size='14' font-weight='bold' fill='#17365D'>AutomobileHybride</text>
+<line x1='1290' y1='777' x2='1500' y2='777' stroke='#9AAFC1'/>
+<text x='1299' y='797' font-size='11' fill='#222'>+ methodeAutomobile()</text>
+</g>
+<path d='M1395 745 V690 H1150 V640' fill='none' stroke='#34495E' stroke-width='2' marker-end='url(#triangle)'/>
+<text x='30' y='960' font-size='13' fill='#555'>Trait pointille : dependance / creation. Triangle blanc : heritage ou realisation.</text>
+</svg>
+
